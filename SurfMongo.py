@@ -1,4 +1,4 @@
-# import necessary libraries
+# import your libraries
 from flask import Flask, render_template, redirect
 from flask_pymongo import PyMongo
 import scrape_info
