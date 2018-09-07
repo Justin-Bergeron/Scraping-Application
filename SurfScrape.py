@@ -17,7 +17,7 @@ def init_browser():
     # Initialize browser
 browser = init_browser()
 
-    # Visit Costa Rica surf site
+    # Go to Costa Rica surf site
 url = "https://www.surfline.com/surf-reports-forecasts-cams/costa-rica/3624060"
 browser.visit(url)
 

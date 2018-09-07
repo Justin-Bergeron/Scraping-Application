@@ -14,7 +14,7 @@ collection = db.surf_summary
 
 @app.route("/")
 def index():
-    # write a statement that finds all the items in the db and sets it to a variable
+    # write a statement that finds all the items in the db and sets it to a var
     inventory = list(db.surf_summary.find())
     print(inventory)
 
